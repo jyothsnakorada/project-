@@ -8,6 +8,12 @@
   <name>project Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+  <!-- linking backend project -->
+  <dependency>
+   <groupId>com.niit</groupId>
+  <artifactId>projectbackend</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+    </dependency>
   
   <!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 <dependency>
